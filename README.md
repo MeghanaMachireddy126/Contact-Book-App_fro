@@ -1,7 +1,7 @@
 📒 Contact Book App
 
 A full-stack contact book app to add, view, and delete contacts with pagination and responsive design for desktop & mobile.
-
+Backend:  https://github.com/MeghanaMachireddy126/Contact-Book-App
 🚀 Features
 
 ✨ Add new contacts with validation
@@ -39,7 +39,6 @@ contact-book-app/
 
 ⚡ Getting Started
 1️⃣ Clone Repository
-git clone https://github.com/MeghanaMachireddy126/Contact_Book_App.git
 cd Contact_Book_App
 
 2️⃣ Backend Setup
