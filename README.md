@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+📒 Contact Book App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack contact book app to add, view, and delete contacts with pagination and responsive design for desktop & mobile.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+✨ Add new contacts with validation
 
-### `npm start`
+📃 View contacts in a paginated table
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🗑️ Delete contacts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📱 Fully responsive UI
 
-### `npm test`
+🔄 Fetch contacts dynamically from backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
+Frontend	Backend	Database
+React.js	Node.js + Express	SQLite / MongoDB
+Axios for API calls	CORS & JSON parsing	Persistent storage
+CSS Flex/Grid	REST APIs	Pagination support
+📁 Project Structure
+contact-book-app/
+│
+├── frontend/        # React frontend
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── index.css
+│   │   └── components/
+│   └── package.json
+│
+├── backend/         # Node.js + Express backend
+│   ├── index.js
+│   ├── db.js
+│   ├── contacts.db
+│   └── package.json
+│
+└── README.md
 
-### `npm run build`
+⚡ Getting Started
+1️⃣ Clone Repository
+git clone https://github.com/MeghanaMachireddy126/Contact_Book_App.git
+cd Contact_Book_App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2️⃣ Backend Setup
+cd backend
+npm install
+node index.js       # or npx nodemon index.js for auto-reload
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend runs at: http://localhost:5000
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3️⃣ Frontend Setup
+cd frontend
+npm install
+npm start
